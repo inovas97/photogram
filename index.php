@@ -1,8 +1,5 @@
 <?php 
 session_start();
-if (!isset($_SESSION['nickname'])){
-    header("Location: login.php");
-}
 if(array_key_exists('logout', $_POST)) {
     unset($_SESSION['nickname']);
     header("Location: login.php");
