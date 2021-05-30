@@ -1,0 +1,191 @@
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	font-family: sans-serif;
+	font-size: 1rem;
+	font-weight: 400;
+	line-height: 1.5;
+	color: black;
+	text-align: left;
+	background-color: white;
+	display: block;
+}
+
+ul{list-style-type: none;}
+
+.bar{
+	width: 100%;
+	height: 12vmin;
+	background-color: grey;
+}
+
+.logo{
+	padding-left: 1%;
+	height: 12vmin;
+}
+
+.menu_list{list-style-type: none;}
+
+.menu_item{
+	font-size: 3.5vmin;
+	color: white;
+	text-align: center;
+	float: left;
+	padding: 10px;
+}
+
+.menu_bar{
+	top:2%;
+	right:2.5%;
+	position:absolute;
+	background-color:gray;
+}
+
+a:hover {
+	color: #3c3c3c;
+	opacity: 1;
+}
+	
+a{
+	color: white;
+	text-decoration: none;
+}
+
+h1{
+    margin-bottom: 0%;
+    font-size: 5vmin;
+}
+
+h2{
+    margin-bottom: 0%;
+    font-size: 4vmin;
+}
+
+h3{font-size: 3vmin;}
+
+h4{font-size: 2vmin;}
+
+p{
+    margin-top: 0%;
+    font-size: 2.5vmin;
+}
+
+.header{
+	font-size: 1.4rem;
+	width: 100%;
+	text-align: center;
+}
+
+.fb,.ig,.gh,.t,.yt {opacity: 0.5;}
+
+.fb:hover {opacity:1;}
+.ig:hover {opacity:1;}
+.gh:hover {opacity:1;}
+.t:hover {opacity:1;}
+.yt:hover {opacity:1;}
+
+.photos {text-align: center;}
+
+.container{
+	border-bottom: 5px dotted grey;
+	padding-bottom: 1%;
+}
+
+.photo_box{padding-top: 1%;}
+
+.photo{
+    width: 60%;
+    height: auto;
+}
+
+.photo_details_button, .photographer_details_button, .link_all_photos, .link_all_photographers{
+  background-color: grey;
+  border: 1px solid #3c3c3c;
+  border-radius: 8px;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 2.5vmin;
+  opacity: 0.6;
+  transition: 0.3s;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+  margin-top: 20px;
+ }
+ 
+.photographers_text{
+	padding-top: 2%;
+	padding-bottom: 2%;
+}
+
+.photographers_list{
+	list-style-type: none;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.photographers_container{
+	text-align: center;
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+}
+ 
+.photographers{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.photographer_description{font-size: 2.5vmin;}
+
+.photographer_body{
+    text-align: center;
+    width: 48%;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+.photographer{
+    width: 300px;
+    height: 250px;
+}
+.photographer_box{
+	text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 2%;
+    width: 50%;
+    float: left;
+}
+
+.social_bar{
+    font-size: 1.4rem;
+    width: 100%;
+    text-align: center;
+    border-top: 5px dotted grey;
+    margin-top: 1%;
+}
+
+.copyright_box{padding-left: 1%;}
+
+.check{
+    margin-top: 1%;
+    border-bottom: 5px dotted grey;
+    border-top: 5px dotted grey;
+}
+
+.meet{
+    margin-top: 1%;
+    margin-bottom: 1%;
+    border-bottom: 5px dotted grey;
+    border-top: 5px dotted grey;
+}
+
+.copyright_box_2{
+	padding-left: 1%;
+	margin-top: 1%;
+    border-top: 5px dotted grey;
+}
