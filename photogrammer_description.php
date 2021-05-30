@@ -37,7 +37,11 @@
                     </td>
                 </tr>
                 
-                <tr><td class ="upload_text">Go back to your profile page <a href="photographer.html">here</a>.</td></tr>
+                <?php
+                session_start();
+                $user = $_SESSION['nickname'];
+                echo "<tr><td class ='upload_text'>Go back to your profile page <a href='photographer.php?nickname=$user'>here</a>.</td></tr>";
+                ?>
             </table>
                
         </form>

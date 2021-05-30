@@ -58,10 +58,7 @@ if(array_key_exists('logout', $_POST)) {
             else{
                 echo '<img class="photographer_icon" src="'.$photogrammer['profile_pick_dir'].'" alt="Card image cap">';
             }
-            if($photogrammer['descr']==null){
-                echo '<p class="photographer_description">Enter description...</p>';
-            }
-            else{
+            if($photogrammer['descr']!=null){
                 echo '<p class="photographer_description">'.$photogrammer['descr'].'</p>';
             }
             echo '<div class ="social_media">';
