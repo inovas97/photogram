@@ -1,7 +1,7 @@
 <?php
 session_start();
 if ( isset($_SESSION['nickname'])){
-    header('Location: index.php');#hello
+    header('Location: index.php');
     exit;
 }
 ?>
