@@ -1,5 +1,4 @@
 <?php session_start();
-echo 'kati';
 ?>
 <!DOCTYPE html>
 <html>
