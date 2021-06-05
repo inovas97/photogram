@@ -1,6 +1,6 @@
 <?php 
 session_start();
-if(array_key_exists('logout', $_POST)) {
+if(array_key_exists('logout', $_POST)){
     unset($_SESSION['nickname']);
     header("Location: login.php");
 }
